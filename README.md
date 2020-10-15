@@ -46,11 +46,13 @@
    ## Attempt Struct
   | Field Name | Description | Json Identifier |
   | ----------- | ----------- | ----------- |
+  | AttemptId | The uuid of the attempt | `_id` |
   | Level | The level the user was on | `level` |
   | Track | The track the user was on | `track` |
   | StarsCollected | The amount of stars collected on the attempt | `stars_collected` |
   | Score | The score obtained on the attempt | `score` |
   | Time | The duration of the attempt in seconds | `time` |
+  | Timestamp | A human readable timestamp in the form of a date | `timestamp` |
  
    ## Device Struct
   | Field Name | Description | Json Identifier |
