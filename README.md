@@ -51,3 +51,19 @@
   | StarsCollected | The amount of stars collected on the attempt | `stars_collected` |
   | Score | The score obtained on the attempt | `score` |
   | Time | The duration of the attempt in seconds | `time` |
+ 
+   ## Device Struct
+  | Field Name | Description | Json Identifier |
+  | ----------- | ----------- | ----------- |
+  | DeviceId | The uuid of the device | `_id` |
+  | StudentName | The name of the student on this device | `student_name` |
+  | Attempts | An array of attempts associated with this device | `attempts` |
+  
+   ## Class Struct
+  | Field Name | Description | Json Identifier |
+  | ----------- | ----------- | ----------- |
+  | ClassId | The uuid of the class | `_id` |
+  | ClassName | The name of the class | `class_name` |
+  | AccessCode | The access code of the class | `access_code` |
+  | Devices | The track the user was on | `devices` |
+
