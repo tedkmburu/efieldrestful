@@ -41,8 +41,13 @@
  ---
  # **efieldrestful api documentation**
  ---
- ## Api Models
-  ***Attempt Struct***
+ # Api Models
+ ---
+   ## Attempt Struct
   | Field Name | Description | Json Identifier |
   | ----------- | ----------- | ----------- |
-  | address | This is the address the web server will bind to, the default value is "127.0.0.1" | 123234 |
+  | Level | The level the user was on | `level` |
+  | Track | The track the user was on | `track` |
+  | StarsCollected | The amount of stars collected on the attempt | `stars_collected` |
+  | Score | The score obtained on the attempt | `score` |
+  | Time | The duration of the attempt in seconds | `time` |
