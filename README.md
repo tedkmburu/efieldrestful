@@ -42,7 +42,6 @@
  # **efieldrestful api documentation**
  ---
  # Api Models
- ---
    ## Attempt Struct
   | Field Name | Description | Json Identifier |
   | ----------- | ----------- | ----------- |
@@ -68,4 +67,4 @@
   | ClassName | The name of the class | `class_name` |
   | AccessCode | The access code of the class | `access_code` |
   | Devices | The track the user was on | `devices` |
-
+---
